@@ -1,8 +1,6 @@
-streamlit==1.40.2
-pandas==2.2.3
+streamlit==1.31.0
+pandas==2.1.4
 numpy==1.26.4
-plotly==5.24.1
-st-aggrid==1.0.5
+plotly==5.17.0
+st-aggrid==0.3.4
 python-dateutil==2.9.0.post0
-openpyxl==3.1.5
-xlrd==2.0.1
