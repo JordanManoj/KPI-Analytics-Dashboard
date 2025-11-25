@@ -1,0 +1,10 @@
+streamlit
+pandas
+plotly
+numpy
+openpyxl
+python-dateutil
+scikit-learn
+matplotlib
+seaborn
+st-aggrid
