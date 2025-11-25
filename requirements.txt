@@ -1,5 +1,5 @@
 streamlit==1.38.0
 pandas==2.2.3
 numpy==2.1.2
-st-aggrid==0.3.3
 plotly==5.22.0
+streamlit-aggrid==1.0.5
