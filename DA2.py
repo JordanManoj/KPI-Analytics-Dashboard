@@ -4,7 +4,8 @@ import numpy as np
 from pathlib import Path
 import plotly.express as px
 import plotly.graph_objects as go
-from st_dataframe_editor import DataFrameEditor
+from st_aggrid import AgGrid, GridOptionsBuilder, GridUpdateMode
+
 
 edited_df = DataFrameEditor(df)
 st.dataframe(edited_df)
@@ -286,5 +287,6 @@ with tab4:
 
 st.markdown("---")
 st.caption("Interactive Procurement Dashboard – Date-safe Version")
+
 
 
