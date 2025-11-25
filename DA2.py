@@ -4,7 +4,11 @@ import numpy as np
 from pathlib import Path
 import plotly.express as px
 import plotly.graph_objects as go
-from streamlit_aggrid import AgGrid, GridOptionsBuilder
+from st_dataframe_editor import DataFrameEditor
+
+edited_df = DataFrameEditor(df)
+st.dataframe(edited_df)
+
 
 
 st.set_page_config(page_title="Procurement Dashboard", layout="wide")
@@ -282,4 +286,5 @@ with tab4:
 
 st.markdown("---")
 st.caption("Interactive Procurement Dashboard – Date-safe Version")
+
 
